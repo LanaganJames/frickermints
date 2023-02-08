@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 96, 182);
+}
+
+h1{
+    font-size: 200px;
+    color: rgb(255, 186, 229);
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+}
+
+.pc{
+    display: flex;
+    flex-direction: row;
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+}
+
+.home{
+    height: 150px;
+    width: 510px;
+    background-color: rgb(255, 186, 229);
+    color: rgb(0, 96, 182);
+    font-size: 60px;
+    border-width: thick medium thick 10px;
+    cursor: pointer;
+}
+
+.contact{
+    height: 150px;
+    width: 510px;
+    background-color: rgb(255, 186, 229);
+    color: rgb(0, 96, 182);
+    font-size: 60px;
+    border-width: thick medium thick 10px;
+    cursor: pointer;
+}
+
+.sm{
+    height: 150px;
+    width: 510px;
+    background-color: rgb(255, 186, 229);
+    color: rgb(0, 96, 182);
+    font-size: 60px;
+    border-width: thick medium thick 10px;
+    cursor: pointer;
+}
+
+.merch{
+    height: 150px;
+    width: 510px;
+    background-color: rgb(255, 186, 229);
+    color: rgb(0, 96, 182);
+    font-size: 60px;
+    border-width: thick medium thick 10px;
+    cursor: pointer;
+}
+
+.new{
+    height: 150px;
+    width: 510px;
+    background-color: rgb(255, 186, 229);
+    color: rgb(0, 96, 182);
+    font-size: 60px;
+    border-width: thick medium thick 10px;
+    cursor: pointer;
+}
+
+.nc{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 50px;
+    color: rgb(255, 186, 229);
+}
+h3{
+    font-size: 40px;
+    color: rgb(255, 186, 229);
+}
+.checkmessage{
+    font-size: 25px;
+    color: rgb(255, 186, 229);
+}
