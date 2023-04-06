@@ -2,14 +2,14 @@
 <html>
     <head>
     <title>Contact Me</title>
-    <link rel="stylesheet" type="text/css" href="frickermints-contact.css">
+    <link rel="stylesheet" type="text/css" href="frickermints-home.css">
     </head>
     <body>
         <h1>frickermints</h1>
     
-        <div class="pc">
+        <div class="pb">
             <div class="pages">
-                <a href="./index.html.html">
+                <a href="./index.html">
                     <button class="home"type="page1">Home</button>
                 </a>
                 <a href="./index.1.html">
@@ -19,7 +19,7 @@
                     <button class="sm"type="page3">Social Media</button>
                 </a>
                 <a href="./index.3.html">
-                    <button class="merch"type="page4">Merch</button>
+                    <button class="merch"type="page4">Albums</button>
                 </a>
                 <a href="./index.4.html">
                     <button class="new"type="page5">New Release</button>
@@ -28,17 +28,33 @@
 
             <div class="con">
                 <div class="posts">
-                    <h2>Contact Us</h2>
-                    <h3>Got any Questions? </h3>
+                    <h2>Contact Us</h3>
+                    <h3>Got any Questions? </h4>
                     <h3>Fill out the form below and i'll get in touch.</h3>
                     <form action="https://formsubmit.co/frickermints@gmail.com" method="POST">
-                        <label class="name"for="name">Name:</label>
-                        <input class="namebox" placeholder="John Doe" type="text" name="Name" required>
-                        <label class="message"for="Message">Message:</label>
-                        <textarea class="messagebox" placeholder="message..." rows="5" cols="60" name="text" required></textarea>
-                        <label class="email"for="email">Your Email:</label>
-                        <input class="emailbox" placeholder="JohnDoe1@email.com" type="text" id="email" name="email" required>
-                        <button class="submit" type="submit">Send</button>
+                        <div class="oneone">
+                            <div class="one">  
+                             <label class="row1" for="FName"> First Name*</label>
+                             <input class="row1" type="text" placeholder="First Name..." id="Fname" type="text" name="FirstName" required>
+                            </div>
+                            <div class="one"> 
+                             <label class="row2" for="LName">Last Name*</label>
+                             <input class="row2" type="text" placeholder="Last Name..." id="Lname" type="text" name="LastName" required>
+                            </div>
+                            </div>
+                            <div class="oneone">
+                            <div class="one">
+                             <label class="row3" for="Email">Email*</label>
+                             <input class="row3" type="text" placeholder="Email..." id="email" type="text" name="Email" required>
+                            </div>
+                            <div class="one"> 
+                             <label class="row4" for="company">Company</label>
+                             <input class="row4" type="text" placeholder="Company..." id="company" type="text" name="Company" >
+                            </div>
+                            </div> 
+                             <label for="discription">Brief description of what you are looking for*</label>         
+                             <textarea name="discription" id="dis" placeholder="Message..." cols="30" rows="10" required></textarea>
+                             <button class="submi" type="submit">Submit</button>
                    </form>
                 </div>
             </div>

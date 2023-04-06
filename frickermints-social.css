@@ -161,19 +161,6 @@ ol{
     margin: 30px 30px;
     cursor: pointer;
 }
-.blade{
-    height: 100px;
-    width: 300px;
-    background-color: rgb(255, 186, 229);
-    border: none;
-    color: rgb(0, 96, 182);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 32px;
-    margin: 30px 30px;
-    cursor: pointer;
-}
 .namebox{
     background-color: rgb(255, 186, 229);
     color: rgb(0, 96, 182);
@@ -201,7 +188,7 @@ ol{
     flex-direction: row;
     padding-top: 50px;
 }
-.submit{
+.submi{
     background-color: rgb(255, 186, 229);
     color: rgb(0, 96, 182);
     width: 100px;
