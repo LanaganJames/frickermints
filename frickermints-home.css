@@ -1,9 +1,9 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(117, 117, 117);
+    background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: fit-content;
+    width: 98%;
 }
 
 @keyframes gradient {
@@ -18,19 +18,33 @@ body{
     }
 }
 
-h1{
-    display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: -50%;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+.content {
     flex-direction: column;
-    width: fit-content;
-    margin: 5px;
-    font-size: 150px;
-    background: -webkit-linear-gradient(45deg, rgb(255, 186, 229), rgb(0, 96, 182));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 400% 500%;
-    animation: gradient 10s ease infinite;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0%;
+  }
+
+h1{
+    position: fixed;
+    bottom: 0;
+    -webkit-text-stroke: 5px black;
+    color: transparent;
+    font-size: 750%;
+    transform: rotate(-20deg);
+    text-align: center;
 }
 
 .pb{
@@ -45,72 +59,66 @@ h1{
 
 .home{
     height: 100%;
-    width: 500px;
-    background: linear-gradient(45deg,rgb(255, 186, 229), rgb(224, 175, 223), rgb(192, 164, 217), rgb(160, 153, 211), rgb(128, 142, 225), rgb(96, 130, 199), rgb(64, 119, 193), rgb(32, 108, 187), rgb(0, 96, 182));
+    width: 100%;
+    background: linear-gradient(45deg,rgba(255, 186, 229, .5), rgba(0, 96, 182, .5));
     background-size: 1000% 100%;
     animation: gradient 8s ease infinite;
     color: black;
-    font-size: 60px;
+    font-size: 5.5vw;
     border-width: thick medium thick 10px;
     cursor: pointer;
 }
 
 .contact{
     height: 100%;
-    width: 500px;
-    background: linear-gradient(45deg, rgb(255, 186, 229),rgb(224, 175, 223), rgb(192, 164, 217), rgb(160, 153, 211), rgb(128, 142, 225), rgb(96, 130, 199), rgb(64, 119, 193), rgb(32, 108, 187), rgb(0, 96, 182));
+    width: 100%;
+    background: linear-gradient(45deg,rgba(255, 186, 229, .5), rgba(0, 96, 182, .5));
     background-size: 1000% 100%;
     animation: gradient 8s ease infinite;
     animation-delay: 1s;
     color: black;
-    font-size: 60px;
+    font-size: 5.5vw;
     border-width: thick medium thick 10px;
     cursor: pointer;
 }
 
 .sm{
     height: 100%;
-    width: 500px;
-    background: linear-gradient(45deg, rgb(255, 186, 229),rgb(224, 175, 223), rgb(192, 164, 217), rgb(160, 153, 211), rgb(128, 142, 225), rgb(96, 130, 199), rgb(64, 119, 193), rgb(32, 108, 187), rgb(0, 96, 182));
+    width: 100%;
+    background: linear-gradient(45deg,rgba(255, 186, 229, .5), rgba(0, 96, 182, .5));
     background-size: 1000% 100%;
     animation: gradient 8s ease infinite;
     animation-delay: 2s;
     color: black;
-    font-size: 60px;
+    font-size: 5.5vw;
     border-width: thick medium thick 10px;
     cursor: pointer;
 }
 
 .merch{
     height: 100%;
-    width: 500px;
-    background: linear-gradient(45deg, rgb(255, 186, 229),rgb(224, 175, 223), rgb(192, 164, 217), rgb(160, 153, 211), rgb(128, 142, 225), rgb(96, 130, 199), rgb(64, 119, 193), rgb(32, 108, 187), rgb(0, 96, 182));
+    width: 100%;
+    background: linear-gradient(45deg,rgba(255, 186, 229, .5), rgba(0, 96, 182, .5));
     background-size: 1000% 100%;
     animation: gradient 8s ease infinite;
     animation-delay: 3s;
     color: black;
-    font-size: 60px;
+    font-size: 5.5vw;
     border-width: thick medium thick 10px;
     cursor: pointer;
 }
 
 .new{
     height: 100%;
-    width: 500px;
-    background: linear-gradient(45deg, rgb(255, 186, 229),rgb(224, 175, 223), rgb(192, 164, 217), rgb(160, 153, 211), rgb(128, 142, 225), rgb(96, 130, 199), rgb(64, 119, 193), rgb(32, 108, 187), rgb(0, 96, 182));
+    width: 100%;
+    background: linear-gradient(45deg,rgba(255, 186, 229, .5), rgba(0, 96, 182, .5));
     background-size: 1000% 100%;
     animation: gradient 8s ease infinite;
     animation-delay: 4s;
     color: black;
-    font-size: 60px;
+    font-size: 5.5vw;
     border-width: thick medium thick 10px;
     cursor: pointer;
-}
-
-.front-img{
-    width: 500px;
-    display: flex;
-    justify-self: flex-start;
 }
 
 /*contact*/
@@ -119,8 +127,8 @@ h1{
     flex-direction: column;
     align-items: flex-start;
     color: rgb(255, 186, 229);
-    font-size: 35px;
-    padding-left: 100px;
+    font-size: 2rem;
+    padding-left: 50px;
     width: 100%;
 }
 
@@ -363,6 +371,42 @@ ol{
     color: rgb(255, 186, 229);
 }
 
-@media (orientation: landscape) and (min-width: 50rem){
+@media (orientation: landscape) and (min-width: 1095px){
+    h1{
 
+    }
+    .home{
+        width: 400px;
+        font-size: 60px;
+    }
+    .contact{
+        width: 400px;
+        font-size: 60px;
+    }
+    .sm{
+        width: 400px;
+        font-size: 60px;
+    }
+    .merch{
+        width: 400px;
+        font-size: 60px;
+    }
+    .new{
+        width: 400px;
+        font-size: 60px;
+    }
+    .front-img{
+        margin-right: 5%;
+    }
+}
+
+@media (orientation: landscape) and (min-width:65rem){
+    #myVideo{
+        left: -10%;
+    }
+
+    h1{
+        
+    font-size: 1250%;
+    }
 }
