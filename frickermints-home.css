@@ -337,13 +337,12 @@ h6{
     }
 }
 
-@media (orientation: portrait) and (min-width: 15rem){
+@media only screen and (max-width: 475px) {
+    body {
+      background-image: url(frontrobin.png);
+    }
     #myVideo{
         display: none;
-    }
-    body{
-        background-image: url(frontrobin.png);
-    
     }
     .pages{
         width: 15rem;
