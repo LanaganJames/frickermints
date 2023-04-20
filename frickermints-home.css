@@ -56,7 +56,7 @@ h1{
 .pages{
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    width: 27rem;
 }
 
 .home{
