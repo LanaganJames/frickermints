@@ -321,7 +321,7 @@ h6{
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media (orientation: portrait) and (max-width: 650px) {
     #myVideo{
         left: -500%;
     }
