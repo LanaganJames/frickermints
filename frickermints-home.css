@@ -337,12 +337,9 @@ h6{
     }
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-image: url(frontrobin.png);
-    }
+@media only screen and (max-width: 650px) {
     #myVideo{
-        display: none;
+        left: -50%;
     }
     .pages{
         width: 15rem;
