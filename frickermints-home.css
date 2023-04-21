@@ -73,7 +73,7 @@ h1{
 .home{
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg,rgba(255, 186, 229, .5), rgba(0, 96, 182, .5));
+    background: linear-gradient(45deg,rgb(255, 186, 229), rgb(0, 96, 182));
     background-size: 1000% 100%;
     animation: gradient 8s ease infinite;
     color: black;
@@ -85,7 +85,7 @@ h1{
 .contact{
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg,rgba(255, 186, 229, .5), rgba(0, 96, 182, .5));
+    background: linear-gradient(45deg,rgb(255, 186, 229), rgb(0, 96, 182));
     background-size: 1000% 100%;
     animation: gradient 8s ease infinite;
     animation-delay: 1s;
@@ -98,7 +98,7 @@ h1{
 .merch{
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg,rgba(255, 186, 229, .5), rgba(0, 96, 182, .5));
+    background: linear-gradient(45deg,rgb(255, 186, 229), rgb(0, 96, 182));
     background-size: 1000% 100%;
     animation: gradient 8s ease infinite;
     animation-delay: 3s;
@@ -111,7 +111,7 @@ h1{
 .new{
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg,rgba(255, 186, 229, .5), rgba(0, 96, 182, .5));
+    background: linear-gradient(45deg,rgb(255, 186, 229), rgb(0, 96, 182));
     background-size: 1000% 100%;
     animation: gradient 8s ease infinite;
     animation-delay: 4s;
