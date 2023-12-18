@@ -215,6 +215,11 @@ textarea{
     display: flex;
     justify-content: center;
 }
+.con{
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+}
 
 /*social*/
 h5{
@@ -261,10 +266,6 @@ h6{
     width: 100px;
 }
 /*merch*/
-.con{
-    display: flex;
-    flex-direction: row;
-}
 
 .cd{
     display: flex;
