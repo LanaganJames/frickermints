@@ -218,7 +218,8 @@ textarea{
 .con{
     display: flex;
     flex-direction: row;
-    height: 100px;
+    z-index: 2;
+    width: 50%;
 }
 
 /*social*/
